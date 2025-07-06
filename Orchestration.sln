@@ -16,7 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{07
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployments", "Deployments", "{4D2675F8-5079-407B-944F-7AEAD855068D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "container", "container", "{573534EE-9FAC-41CE-9B15-9C275854799D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compose", "Compose", "{573534EE-9FAC-41CE-9B15-9C275854799D}"
 	ProjectSection(SolutionItems) = preProject
 		..\.env = ..\.env
 		..\docker-compose.base.yml = ..\docker-compose.base.yml
@@ -66,7 +66,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuthLambda", "AuthLambda", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "..\AuthLambda\src\AuthFunction\Auth.csproj", "{84E19CBA-1AC6-0EF2-E36C-8C49F24DC010}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{85842BEA-BBE1-4EE8-90D5-F06700A7C411}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ECommerce-UI", "ECommerce-UI", "{85842BEA-BBE1-4EE8-90D5-F06700A7C411}"
 	ProjectSection(SolutionItems) = preProject
 		..\BlazorWASM\buildspec.yml = ..\BlazorWASM\buildspec.yml
 	EndProjectSection

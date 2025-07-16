@@ -43,7 +43,7 @@ public static class Extensions
         builder.Services.AddSingleton<IAuthorizationPolicyProvider, PermissionPolicyProvider>();
         builder.Services.AddScoped<IAuthorizationHandler, PermissionAuthorizationHandler>();
 
-        builder.Services.AddRedis(builder.Configuration);
+        //builder.Services.AddRedis(builder.Configuration);
         builder.Services.AddHangfireConfiguration(builder.Configuration);
         builder.Services.AddJWTConfiguration(builder.Configuration);
 

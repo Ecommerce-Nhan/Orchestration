@@ -8,9 +8,8 @@
         "DebugTarget": "https"
       },
       {
-        "Path": "..\\BlazorWASM\\Ecommerce\\Ecommerce.csproj",
-        "Action": "Start",
-        "DebugTarget": "https"
+        "Path": "..\\UI\\BlazorWASM\\Ecommerce\\Ecommerce.csproj",
+        "Action": "Start"
       }
     ]
   }

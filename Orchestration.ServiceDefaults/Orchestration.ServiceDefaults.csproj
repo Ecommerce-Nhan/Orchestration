@@ -45,7 +45,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\..\Services\SharedLibrary\src\SharedLibrary.csproj" />
+	  <ProjectReference Include="..\..\BuildingBlocks\SharedLibrary\src\SharedLibrary.csproj" />
 	</ItemGroup>
 
 </Project>

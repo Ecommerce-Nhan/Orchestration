@@ -17,7 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ProductService\src\ProductService.Api\ProductService.Api.csproj" />
+    <ProjectReference Include="..\..\BuildingBlocks\APIGateway\APIGateway.csproj" />
+    <ProjectReference Include="..\..\IdentityServer\src\IdentityServer.Api\IdentityServer.Api.csproj" />
+    <ProjectReference Include="..\..\Services\ProductService\src\ProductService.Api\ProductService.Api.csproj" />
     <ProjectReference Include="..\..\Services\UserService\src\UserService.Api\UserService.Api.csproj" />
   </ItemGroup>
 

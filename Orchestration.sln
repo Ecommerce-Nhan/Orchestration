@@ -66,6 +66,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartService.Notification", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartService.Persistence", "..\Services\CartService\src\CartService.Persistence\CartService.Persistence.csproj", "{6173904A-5C04-6E6D-1AB4-55012CAD6117}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{1C1E256D-76DB-451D-B873-61710AFEE0BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer.Api", "..\IdentityServer\src\IdentityServer.Api\IdentityServer.Api.csproj", "{9B3471D5-3B0B-42EC-5471-5AC144FB3D1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer.Application", "..\IdentityServer\src\IdentityServer.Application\IdentityServer.Application.csproj", "{A2BDA0CE-97B7-C139-06F8-F7EEC2CE8F87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer.Persistence", "..\IdentityServer\src\IdentityServer.Persistence\IdentityServer.Persistence.csproj", "{02832A26-8AE8-B23F-58B6-EC09E447FE67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer.Shared", "..\IdentityServer\src\IdentityServer.Shared\IdentityServer.Shared.csproj", "{3CED2ED6-2C08-A4B2-E3CC-8040C7A5F47B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -172,6 +182,22 @@ Global
 		{6173904A-5C04-6E6D-1AB4-55012CAD6117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6173904A-5C04-6E6D-1AB4-55012CAD6117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6173904A-5C04-6E6D-1AB4-55012CAD6117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3471D5-3B0B-42EC-5471-5AC144FB3D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3471D5-3B0B-42EC-5471-5AC144FB3D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3471D5-3B0B-42EC-5471-5AC144FB3D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3471D5-3B0B-42EC-5471-5AC144FB3D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BDA0CE-97B7-C139-06F8-F7EEC2CE8F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BDA0CE-97B7-C139-06F8-F7EEC2CE8F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BDA0CE-97B7-C139-06F8-F7EEC2CE8F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BDA0CE-97B7-C139-06F8-F7EEC2CE8F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02832A26-8AE8-B23F-58B6-EC09E447FE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02832A26-8AE8-B23F-58B6-EC09E447FE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02832A26-8AE8-B23F-58B6-EC09E447FE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02832A26-8AE8-B23F-58B6-EC09E447FE67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CED2ED6-2C08-A4B2-E3CC-8040C7A5F47B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CED2ED6-2C08-A4B2-E3CC-8040C7A5F47B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CED2ED6-2C08-A4B2-E3CC-8040C7A5F47B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CED2ED6-2C08-A4B2-E3CC-8040C7A5F47B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -204,6 +230,10 @@ Global
 		{BE22DC38-197C-0C5C-FC7D-BC00D083B197} = {7F6919BD-0121-4400-B681-526F53F6F2FF}
 		{BAACD3DD-F9DD-269F-C637-31F4F4DF21ED} = {7F6919BD-0121-4400-B681-526F53F6F2FF}
 		{6173904A-5C04-6E6D-1AB4-55012CAD6117} = {7F6919BD-0121-4400-B681-526F53F6F2FF}
+		{9B3471D5-3B0B-42EC-5471-5AC144FB3D1D} = {1C1E256D-76DB-451D-B873-61710AFEE0BE}
+		{A2BDA0CE-97B7-C139-06F8-F7EEC2CE8F87} = {1C1E256D-76DB-451D-B873-61710AFEE0BE}
+		{02832A26-8AE8-B23F-58B6-EC09E447FE67} = {1C1E256D-76DB-451D-B873-61710AFEE0BE}
+		{3CED2ED6-2C08-A4B2-E3CC-8040C7A5F47B} = {1C1E256D-76DB-451D-B873-61710AFEE0BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AAD990BF-38B3-45C1-B232-B46A698EA2EC}

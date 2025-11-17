@@ -30,6 +30,12 @@ public static class GeneralServiceExtensions
         {
             var redisHost = configuration.GetConnectionString("redis");
             options.Configuration = redisHost;
+            //options.Configuration = "localhost";
+            //options.ConfigurationOptions = new StackExchange.Redis.ConfigurationOptions()
+            //{
+            //    AbortOnConnectFail = true,
+            //    EndPoints = { options.Configuration }
+            //};
         });
 
         return services;

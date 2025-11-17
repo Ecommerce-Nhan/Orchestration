@@ -20,9 +20,11 @@ public class PermissionAuthorizationHandler : AuthorizationHandler<PermissionReq
             return;
         }
         var userRoles = context.User.Claims
-            .Where(c => c.Type == ClaimTypes.Role)
-            .Select(c => c.Value)
-            .ToList();
+                .Where(c => c.Type == ClaimTypes.Role)
+                .SelectMany(c => c.Value.Split(',', StringSplitOptions.RemoveEmptyEntries))
+                .Select(r => r.Trim())
+                .ToList();
+
         if (!userRoles.Any())
         {
             return;

@@ -18,7 +18,7 @@ public class GlobalExceptionHandler : IExceptionHandler
                                           ? (int)e.StatusCode
                                           : (int)HttpStatusCode.InternalServerError;
 
-        var response = await Response<PermissionResponse>.FailAsync(new List<string> { exception.Message });
+        var response = await Response<Response>.FailAsync(new List<string> { exception.Message });
         Log.Error(exception.Message);
         await httpContext.Response.WriteAsJsonAsync(response, cancellationToken)
                                   .ConfigureAwait(false);
